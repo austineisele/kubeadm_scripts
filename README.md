@@ -1,2 +1,3 @@
-# kudeadm_scripts
-Scripts for setting up a k8s cluster with kubeadm
+Scripts for Kubernetes Provisioning with kubeadm
+
+This is a project for provisioning Kubernetes clusters with kubeadm on Vagrant vm's. 
