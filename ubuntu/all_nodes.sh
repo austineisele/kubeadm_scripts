@@ -88,5 +88,7 @@ cat > /etc/default/kubelet << EOF
 KUBELET_EXTRA_ARGS=--node-ip=$local_ip
 EOF
 
-
-
+if [ $(hostname) = master-node ];
+then
+    ./master_node.sh;
+fi
