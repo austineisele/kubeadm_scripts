@@ -40,3 +40,7 @@ curl https://raw.githubusercontent.com/projectcalico/calico/v3.25.0/manifests/ca
 
 kubectl apply -f calico.yaml
 
+
+sudo apt-get install bash-completion
+echo "source <(kubectl completion bash)" >> ${HOME}/.bashrc
+
